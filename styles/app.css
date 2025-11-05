@@ -1,0 +1,58 @@
+@import "./fonts.css";
+@import "./reset.css";
+@import "./global.css";
+@import "./responsive.css";
+
+
+/*=============================| start topbar */
+
+.header {
+    margin-top: 28px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    margin-right: 30px;
+}
+
+.menu__link {
+    font-family: TTNorms, serif;
+    font-size: 15px;
+    color: #081D43;
+}
+
+.contactUs-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 38px;
+    background-color: #0050C8;
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+
+/*===============================| end topbar */
+
+
+
+
