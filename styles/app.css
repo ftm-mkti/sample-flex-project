@@ -46,6 +46,7 @@
     justify-content: center;
     width: 120px;
     height: 38px;
+    font-size: 14px;
     background-color: #0050C8;
     border-radius: 7px;
     color: #FFFFFF;
@@ -53,6 +54,59 @@
 
 /*===============================| end topbar */
 
+.header-main {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
 
+.header-main__left {
+    flex-basis: 50%;
+}
+
+.header__title {
+    font-size: 36px;
+    font-family: TTNorms, serif;
+    color: #081D43;
+    width: 26rem;
+}
+
+.header__caption {
+    color: #6C7890;
+    font-size: 16px;
+    font-family: TTNorms, serif;
+    width: 26rem;
+}
+
+.header-main__links {
+    display: flex;
+
+}
+
+.header-main__link {
+    display: block;
+    text-align: center;
+    width: 9rem;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    background-color: #0050C8;
+    border-radius: 7px;
+    color: #FFFFFF;
+    margin-right: 1rem;
+}
+
+.header-main__link--color {
+    background-color: #87BC25;
+}
+.header-main__right {
+    flex-basis: 50%;
+}
+
+.header-main__img {
+    width: 100%;
+}
+
+/*=======================================|end header main*/
 
 
