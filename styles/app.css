@@ -113,20 +113,20 @@
 
 }
 
-.work-top {
+.work-top, .portfolio-top {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.work-top__text {
+.work-top__text, .portfolio-top__text {
     margin-top: 6rem;
     color: #6C7890;
     font-size: 15px;
 }
 
-.work-top__caption {
+.work-top__caption, .portfolio-top__caption {
     margin-top: 0;
     color: #081D43;
     font-size: 30px;
@@ -213,7 +213,7 @@
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 256px;
-    height: 225px;
+    min-height: 225px;
     background-color: #FFFFFF;
     border-radius: 3px;
     margin: 15px;
@@ -252,3 +252,25 @@
 }
 
 /*==========================| end person comment*/
+.portfolio {
+    margin-bottom: 4rem;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portfolio__items {
+    max-width: 352px;
+    margin-top: 4rem;
+}
+
+.portfolio__item {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*============================|end portfolio*/
