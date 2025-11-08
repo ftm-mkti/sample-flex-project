@@ -4,7 +4,7 @@
 @import "./responsive.css";
 
 
-/*=============================| start topbar */
+/*=================================| start topbar */
 
 .header {
     margin-top: 28px;
@@ -52,7 +52,7 @@
     color: #FFFFFF;
 }
 
-/*===============================| end topbar */
+/*====================================| end topbar */
 
 .header-main {
     display: flex;
@@ -107,7 +107,7 @@
     width: 100%;
 }
 
-/*=======================================|end header main*/
+/*=================================|end header main*/
 
 .work {
 
@@ -165,4 +165,90 @@
     width: 100%;
 }
 
-/*===============================| end work*/
+/*=====================================| end work*/
+
+.person-comment {
+    background-color: #2F5BEA;
+    padding: 3rem 0 4rem 0;
+    margin-top: 4rem;
+}
+
+.person-comment__top {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments__title {
+    font-family: "TTNorms Medium", serif;
+    font-size: 30px;
+    margin: 1rem 0;
+}
+
+.comments__text {
+    font-size: 14px;
+    font-family: "TTNorms Light", serif;
+    width: 25rem;
+    text-align: center;
+    margin: 0;
+    line-height: 2rem;
+}
+
+.comment-container {
+    max-width: 858px;
+    margin: 0 auto;
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 256px;
+    height: 225px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    margin: 15px;
+}
+
+.comment__message {
+    font-size: 13px;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    line-height: 22px;
+    color: #7E8085;
+    padding: 15px;
+    margin: 0;
+}
+
+.comment__info {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #E8EBEF;
+    padding: 3px 15px;
+}
+
+.comment__info--img {
+    margin-right: 10px;
+}
+
+.comment__info--text {
+    font-size: 12px;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+/*==========================| end person comment*/
