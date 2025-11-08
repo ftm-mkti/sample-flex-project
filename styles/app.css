@@ -274,3 +274,57 @@
 }
 
 /*============================|end portfolio*/
+
+.send-email {
+    background-color: #2C57E4;
+    padding: 5rem 0;
+}
+
+.send-email__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send-email__text {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.send-email__form {
+    min-width: 352px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.email__input {
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.send-email__submit {
+    width: 60px;
+    height: 50px;
+    background-color: #2F5BEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.copy-right__text{
+    color: #6C7890;
+    font-size: 14px;
+}
