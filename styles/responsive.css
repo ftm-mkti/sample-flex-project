@@ -2,11 +2,48 @@
     .container {
         max-width: 960px;
     }
+
+    .menu {
+        left: -276px;
+        transition: unset;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
     .container {
         max-width: 720px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .menu {
+        background-color: blue;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -276px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 16rem;
+        padding: 3rem 2rem;
+        transition: 0.3s all ease-in-out;
+    }
+
+    .menu__item {
+        padding-bottom: 1rem;
+    }
+
+    .menu__link {
+        color: #FFFFFF;
+        font-size: 1rem;
+    }
+
+    .header-icon {
+        display: block;
     }
 }
 

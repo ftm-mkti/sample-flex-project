@@ -1,7 +1,7 @@
 @import "./fonts.css";
 @import "./reset.css";
 @import "./global.css";
-@import "./responsive.css";
+
 
 
 /*=================================| start topbar */
@@ -28,6 +28,7 @@
 .menu {
     display: flex;
     align-items: center;
+    transition: 0.3s all ease-in-out;
 }
 
 .menu__item {
@@ -51,7 +52,9 @@
     border-radius: 7px;
     color: #FFFFFF;
 }
-
+.header-icon {
+    display: none;
+}
 /*====================================| end topbar */
 
 .header-main {
@@ -299,7 +302,7 @@
     align-items: center;
     border-radius: 4px;
     background-color: #FFFFFF;
-    padding: 10px;
+    padding: 5px;
 }
 
 .email__input {
@@ -328,3 +331,4 @@
     color: #6C7890;
     font-size: 14px;
 }
+
