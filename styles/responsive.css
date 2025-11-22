@@ -12,6 +12,9 @@
         width: 28rem;
     }
 
+    .send-email__text {
+        max-width: 23rem;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -75,7 +78,12 @@
     .header__caption {
         width: 100%;
     }
-
+    .work-content {
+        margin-bottom: 4rem;
+    }
+    .work-bottom {
+        margin: 0 auto;
+    }
     .portfolio__items {
         width: 21rem;
     }
@@ -86,16 +94,8 @@
         max-width: 540px;
     }
 
-    .work-content {
-        margin-bottom: 3rem;
-    }
-
-    .work-bottom {
-        margin: 0;
-    }
-
     .comment {
-        flex-basis: 16rem;
+        flex-basis: 14rem;
         margin: 9px;
     }
 
@@ -112,8 +112,12 @@
     .portfolio__items {
         width: 15rem;
     }
-    .portfolio-top__caption {
-        text-align: center;
+
+    .send-email__wrapper {
+        flex-direction: column;
+    }
+    .send-email__form {
+        margin-top: 1rem;
     }
 }
 

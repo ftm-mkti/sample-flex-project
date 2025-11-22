@@ -3,7 +3,6 @@
 @import "./global.css";
 
 
-
 /*=================================| start topbar */
 
 .header {
@@ -52,9 +51,11 @@
     border-radius: 7px;
     color: #FFFFFF;
 }
+
 .header-icon {
     display: none;
 }
+
 /*====================================| end topbar */
 
 .header-main {
@@ -133,6 +134,7 @@
     margin-top: 0;
     color: #081D43;
     font-size: 30px;
+    text-align: center;
 }
 
 .work-wrapper {
@@ -180,6 +182,7 @@
 .wrapper {
     padding: 2rem 0;
 }
+
 .person-comment__top {
     color: #FFFFFF;
     display: flex;
@@ -315,6 +318,7 @@
     outline: none;
     border: none;
     padding: 10px;
+    width: 100%;
 }
 
 .send-email__submit {
@@ -327,14 +331,17 @@
     border-radius: 3px;
 }
 
-.copy-right{
+.copy-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin: 1rem 0;
 }
-.copy-right__text{
+
+.copy-right__text {
     color: #6C7890;
     font-size: 14px;
 }
 
+/*=====================================|end footer*/
