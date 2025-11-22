@@ -77,7 +77,14 @@
     .container {
         max-width: 540px;
     }
-}
+    .work-content {
+        margin-bottom: 3rem;
+    }
+
+    .work-bottom {
+        margin: 0;
+    }
+ }
 
 @media only screen and (max-width: 576px) {
     .container {
