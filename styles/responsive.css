@@ -45,6 +45,32 @@
     .header-icon {
         display: block;
     }
+
+    .header-main {
+        flex-direction: column-reverse;
+    }
+
+    .header-main__right {
+        margin-bottom: 3rem;
+    }
+
+    .header-main__left {
+        max-width: 100%;
+    }
+
+    .header-main__links {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .header-main__link {
+        margin-bottom: 10px;
+    }
+
+    .header__title ,
+    .header__caption {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
