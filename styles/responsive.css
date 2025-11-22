@@ -8,6 +8,10 @@
         transition: unset;
     }
 
+    .portfolio__items {
+        width: 28rem;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -71,6 +75,10 @@
     .header__caption {
         width: 100%;
     }
+
+    .portfolio__items {
+        width: 21rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -96,13 +104,25 @@
         align-content: space-between;
         height: 66px;
     }
+
     .brand__img {
         margin: 12px;
+    }
+
+    .portfolio__items {
+        width: 15rem;
+    }
+    .portfolio-top__caption {
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 576px) {
     .container {
         max-width: 100%;
+    }
+
+    .portfolio__items {
+        width: 100%;
     }
 }
