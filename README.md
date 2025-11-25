@@ -1,3 +1,3 @@
-#this is my test site 
+# This Is My Test Site 
 
-[flex-sample](github.io/sample-flex-project)
+[sample-flex-project](github.io/sample-flex-project)
